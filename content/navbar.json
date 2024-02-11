@@ -1,0 +1,18 @@
+[
+	{
+		"url": "/",
+		"title": "About Us"
+	},
+	{
+		"url": "/case-studies",
+		"title": "Case Studies"
+	},
+	{
+		"url": "/articles",
+		"title": "Articles"
+	},
+	{
+		"url": "/projects",
+		"title": "Projects"
+	}
+]
