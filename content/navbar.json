@@ -1,18 +1,22 @@
 [
 	{
-		"url": "/",
-		"title": "About Us"
+		"url": "/about",
+		"title": "About"
 	},
 	{
-		"url": "/case-studies",
-		"title": "Case Studies"
-	},
-	{
-		"url": "/articles",
-		"title": "Articles"
+		"url": "/events",
+		"title": "Events"
 	},
 	{
 		"url": "/projects",
 		"title": "Projects"
+	},
+	{
+		"url": "/resources",
+		"title": "Resources"
+	},
+	{
+		"url": "/contact",
+		"title": "Contact"
 	}
 ]
