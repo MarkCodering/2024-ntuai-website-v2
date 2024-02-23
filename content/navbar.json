@@ -1,19 +1,11 @@
 [
 	{
-		"url": "/about",
+		"url": "#about",
 		"title": "About"
 	},
 	{
-		"url": "/events",
+		"url": "#events",
 		"title": "Events"
-	},
-	{
-		"url": "/projects",
-		"title": "Projects"
-	},
-	{
-		"url": "/resources",
-		"title": "Resources"
 	},
 	{
 		"url": "/contact",

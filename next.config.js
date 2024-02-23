@@ -35,6 +35,11 @@ module.exports = {
 				hostname: '**.medium.com',
 				pathname: '/**'
 			},
+			{
+				protocol: 'https',
+				hostname: '**.facebook.com',
+				pathname: '/**'
+			}
 		],
 	},
 }

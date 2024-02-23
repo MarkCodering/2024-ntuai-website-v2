@@ -4,9 +4,9 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	overflow-y: clip;
-	overflow-x: hidden;
+	//width: 100%;
+	//overflow-y: clip;
+	//overflow-x: hidden;
 }
 
 @include media($max: $mobile) {
