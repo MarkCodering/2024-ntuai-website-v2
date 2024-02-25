@@ -26,55 +26,55 @@ import about from "../../../styles/sections/index/about.module.scss";
 export default function Events() {
   return (
     <div className="section" id="events">
-    <Section classProp={`${about.section} borderBottom`}>
-      <Container spacing={["verticalXXXLrg"]}>
-        <SectionTitle
-          title="Events"
-          preTitle="Events in the clubs - Technical, Business and Networking"
-          subTitle="We host a variety of events, from technical workshops to networking events. We are dedicated to providing a platform for students to learn and explore the field of AI."
-        />
-        <section className={`${about.content} ${about.container}`}>
-          <div className={about.copy}>
-            <CopyBlock
-              title="Technical Events"
-              icon={["fad", "chart-network"]}
-              copy="We host a variety of events, like technical workshops. We are dedicated to providing a platform for students to learn and explore the field of AI."
-              iconClass={about.icon}
-              containerClass={about.container}
-            />
-            <BadgesBlock
-              title="Business Events"
-              copy="We invite industry professionals to speak about their experiences and the future of AI. We are dedicated to providing a platform for students to learn and explore the field of AI."
-              list={software}
-              block="software"
-              fullContainer="fullContainer"
-              icon="grid-2-plus"
-              containerClass={about.container}
-              headerIcon={about.icon}
-            />
-            <BadgesBlock
-              title="Business Events"
-              copy="We invite industry professionals to speak about their experiences and the future of AI. We are dedicated to providing a platform for students to learn and explore the field of AI."
-              list={software}
-              block="software"
-              fullContainer="fullContainer"
-              icon="grid-2-plus"
-              containerClass={about.container}
-              headerIcon={about.icon}
-            />
-          </div>
-          <div className={`${about.image} ${about.technicalSvg}`}>
-            <Image
-              src="/img/dataism-24.svg"
-              width={477}
-              height={1111}
-              alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"
-            />
-          </div>
-        </section>
-      </Container>
-      {/* <SectionGridBg gridSize={4}/> */}
-    </Section>
+      <Section classProp={`${about.section} borderBottom`}>
+        <Container spacing={["verticalXXXLrg"]}>
+          <SectionTitle
+            title="Events"
+            preTitle="Events in the clubs - Technical, Business and Networking"
+            subTitle="We host a variety of events, from technical workshops to networking events. We are dedicated to providing a platform for students to learn and explore the field of AI."
+          />
+          <section className={`${about.content} ${about.container}`}>
+            <div className={about.copy}>
+              <CopyBlock
+                title="Technical Events"
+                icon={["fad", "chart-network"]}
+                copy="We host a variety of events, like technical workshops. We are dedicated to providing a platform for students to learn and explore the field of AI."
+                iconClass={about.icon}
+                containerClass={about.container}
+              />
+              <CopyBlock
+                title="Business Events"
+                copy="We invite industry professionals to speak about their experiences and the future of AI. We are dedicated to providing a platform for students to learn and explore the field of AI."
+                //list={software}
+                //block="software"
+                //fullContainer="fullContainer"
+                icon={["fad", "chart-network"]}
+                containerClass={about.container}
+                headerIcon={about.icon}
+              />
+              <CopyBlock
+                title="Business Events"
+                copy="We invite industry professionals to speak about their experiences and the future of AI. We are dedicated to providing a platform for students to learn and explore the field of AI."
+                //list={software}
+                //block="software"
+                //fullContainer="fullContainer"
+                icon={["fad", "chart-network"]}
+                containerClass={about.container}
+                headerIcon={about.icon}
+              />
+            </div>
+            <div className={`${about.image} ${about.technicalSvg}`}>
+              <Image
+                src="/img/dataism-24.svg"
+                width={477}
+                height={1111}
+                alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b"
+              />
+            </div>
+          </section>
+        </Container>
+        {/* <SectionGridBg gridSize={4}/> */}
+      </Section>
     </div>
   );
 }
