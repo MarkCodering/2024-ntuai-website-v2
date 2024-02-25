@@ -51,6 +51,10 @@ export default function Footer() {
               <a href="mailto:hexlabai@gmail.com">
                 <p>Email</p>
               </a>
+              <p>
+                Feel free to reach out to us if you have any questions or would
+                like to sponsor us in partnership.
+              </p>
             </li>
           </ul>
           <ul className={css.social}>

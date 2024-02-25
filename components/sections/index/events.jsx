@@ -50,7 +50,7 @@ export default function Events() {
                 //fullContainer="fullContainer"
                 icon={["fad", "chart-network"]}
                 containerClass={about.container}
-                headerIcon={about.icon}
+                iconClass={about.icon}
               />
               <CopyBlock
                 title="Business Events"
@@ -60,7 +60,7 @@ export default function Events() {
                 //fullContainer="fullContainer"
                 icon={["fad", "chart-network"]}
                 containerClass={about.container}
-                headerIcon={about.icon}
+                iconClass={about.icon}
               />
             </div>
             <div className={`${about.image} ${about.technicalSvg}`}>
