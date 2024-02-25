@@ -28,7 +28,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className={css.container}>
+    <footer className={css.container} id="contact">
       <Container spacing={["verticalXXLrg", "bottomLrg"]}>
         <section className={css.sections}>
           <ul className={css.thanks}>
