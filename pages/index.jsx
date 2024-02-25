@@ -22,12 +22,14 @@ export default function HomePage() {
       </Head>
       <Color colors={colors} />
       <Hero />
+      
       {/* 
 			<Looking /> 
 			<FeaturedProjects />
 			*/}
       <About id="about" />
       <Events id="events" />
+      <Looking /> 
       {/* <Career /> */}
     </>
   );
